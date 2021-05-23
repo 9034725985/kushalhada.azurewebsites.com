@@ -9,7 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.markdown = README.markdown
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kushalhada", "kushalhada\kushalhada.csproj", "{1FDD2A5C-C060-452F-9F52-BA343F6BD2D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kushalhada", "kushalhada\kushalhada.csproj", "{1FDD2A5C-C060-452F-9F52-BA343F6BD2D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{ECEC75E9-3BBA-4C6E-9FD3-16FB883E1193}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F35E502A-5161-4FE4-9317-3B9BB2863426}"
+	ProjectSection(SolutionItems) = preProject
+		build.yml = build.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F35E502A-5161-4FE4-9317-3B9BB2863426} = {ECEC75E9-3BBA-4C6E-9FD3-16FB883E1193}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2BC3A798-E5F6-4634-9400-BD2B1AB7A07A}
